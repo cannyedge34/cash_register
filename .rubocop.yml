@@ -1,0 +1,16 @@
+AllCops:
+  NewCops: enable
+  SuggestExtensions:
+    rubocop-rspec: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/BlockLength:
+  Enabled: false
